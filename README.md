@@ -1,8 +1,6 @@
 # Torch-KWT
-Unofficial PyTorch implementation of [*Keyword Transformer: A Self-Attention Model for Keyword Spotting*](https://arxiv.org/abs/2104.00769).
-
-<a href="https://colab.research.google.com/github/ID56/Torch-KWT/blob/main/notebooks/Torch_KWT_Tutorial.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
-
+- PyTorch implementation of the paper, [*Keyword Transformer: A Self-Attention Model for Keyword Spotting*](https://arxiv.org/abs/2104.00769). </br>
+- Made in **Linux OS**
 
 ## Setup
 
@@ -11,7 +9,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-To download the Google Speech Commands V2 dataset, you may run the provided bash script as below. This would download and extract the dataset to the "destination path" provided.
+To download the Google Speech Commands V2 dataset, you may run the provided bash/WSL (Windows Subsystem for Linux) script as below. This would download and extract the dataset to the "destination path" provided (preferably a folder named "data" inside this root directory).
 
 ```
 sh ./download_gspeech_v2.sh <destination_path>
@@ -62,13 +60,9 @@ python inference.py --conf sample_configs/base_config.yaml \
                     --thresh 0.85 \
                     --mode multi
 ```
-For detailed usage example, check the colab tutorial.
-
-## Tutorials
-- [Colab Tutorial: [Using pretrained model | Inference scripts | Training]](https://colab.research.google.com/github/ID56/Torch-KWT/blob/main/notebooks/Torch_KWT_Tutorial.ipynb)
+**For detailed usage example, check the Untitled.ipynb**
 
 ## Weights & Biases
-
 You can optionally log your training runs with [wandb](https://wandb.ai/site). You may provide a path to a file containing your API key, or simply provide it manually from the login prompt when your start your training.
 
 ![wandb](resources/wandb.png "W&B charts")
