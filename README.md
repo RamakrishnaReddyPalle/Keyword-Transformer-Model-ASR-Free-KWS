@@ -1,6 +1,6 @@
 # Torch-KWT
-- PyTorch implementation of the paper, [*Keyword Transformer: A Self-Attention Model for Keyword Spotting*](https://arxiv.org/abs/2104.00769). </br>
-- Made in **Linux OS**
+PyTorch implementation of the paper, [*Keyword Transformer: A Self-Attention Model for Keyword Spotting*](https://arxiv.org/abs/2104.00769). </br>
+Made in **Linux OS**
 
 ## Setup
 
