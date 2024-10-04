@@ -24,6 +24,7 @@ The **Keyword Transformer (KWT)** is a state-of-the-art model designed specifica
 
 ### Architecture
 <img src="assets/KWT_Architecture.png" alt="Architecture Diagram" height="500" />
+
 *The Keyword Transformer architecture diagram.*
 
 ---
@@ -94,12 +95,14 @@ python inference.py --conf sample_configs/base_config.yaml \
 
 # **Demo of Predictions.ipynb**
 <img src="assets/ram_bed_1.png" height="300" />
+
 *My custom input data:</br>
 -Black region is lowest dB (silence)</br>
 -White region is the loudest and most probable region of keyword</br>
 -In betweeb gradient is basically noise*
 
 <img src="assets/ram_bed_1_predicion.png" height="300" /> 
+
 *Predictions*
 
 **For a detailed usage of all the scripts for inference, check the `Predictions.ipynb`.**
