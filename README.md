@@ -94,14 +94,14 @@ python inference.py --conf sample_configs/base_config.yaml \
 ```
 
 # **Demo of Predictions.ipynb**
-<img src="assets/ram_bed_1.png" height="300" />
+<img src="assets/ram_bed_1.png" height="600" />
 
 *My custom input data:</br>
 -Black region is lowest dB (silence)</br>
 -White region is the loudest and most probable region of keyword</br>
 -In betweeb gradient is basically noise*
 
-<img src="assets/ram_bed_1_predicion.png" height="300" /> 
+<img src="assets/ram_bed_1_predicion.png" height="600" /> 
 
 *Predictions*
 
