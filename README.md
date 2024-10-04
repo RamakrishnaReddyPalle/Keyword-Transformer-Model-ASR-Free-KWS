@@ -33,7 +33,7 @@ The **Keyword Transformer (KWT)** is a state-of-the-art model designed specifica
 ## Setup
 
 ```bash
-git clone <https://github.com/RamakrishnaReddyPalle/Keyword-Transformer-Model-ASR-Free-KWS.git>
+git clone https://github.com/RamakrishnaReddyPalle/Keyword-Transformer-Model-ASR-Free-KWS.git
 ```
 ```bash
 cd path\to\cloned\folder
