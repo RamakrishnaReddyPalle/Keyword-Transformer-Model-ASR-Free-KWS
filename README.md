@@ -22,8 +22,8 @@ The **Keyword Transformer (KWT)** is a state-of-the-art model designed specifica
 ### Knowledge Distillation
 - KWT incorporates knowledge distillation, using predictions from a pre-trained model to enhance training, improving overall performance.
 
-### Figure 1
-![Architecture Diagram](path/to/your/figure.png)  
+### Architecture
+![Architecture Diagram](assets/KWT_Architecture.png)  
 *The Keyword Transformer architecture diagram.*
 
 ---
@@ -91,7 +91,16 @@ python inference.py --conf sample_configs/base_config.yaml \
                     --thresh 0.85 \
                     --mode multi
 ```
-**For a detailed usage of all the scripts for inference, check the `Prediction.ipynb`.**
 
+# **Demo of Predictions.ipynb**
+![My custom input data](assets/KWT_Architecture.png)  
+*My custom input data:</br>
+-Black region is lowest dB (silence)</br>
+-White region is the loudest and most probable region of keyword</br>
+-In betweeb gradient is basically noise*
 
+![Predtictions](assets/KWT_Architecture.png)  
+*Predtioctions*
+
+**For a detailed usage of all the scripts for inference, check the `Predictions.ipynb`.**
 ---
