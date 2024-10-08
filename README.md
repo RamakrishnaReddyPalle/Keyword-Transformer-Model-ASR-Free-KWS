@@ -104,6 +104,6 @@ python inference.py --conf sample_configs/base_config.yaml \
 <img src="assets/ram_bed_1_predicion.png" height="600" /> 
 
 *Predictions*
-
-**For a detailed usage of all the scripts for inference, check the `Predictions.ipynb`.**
 ---
+**For a detailed usage of all the scripts for inference, check the `Predictions.ipynb`.**
+
